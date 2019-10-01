@@ -1,0 +1,172 @@
+/* ==== A SIMPLE CSS RESET FROM ERIC MEYER ==== */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Main formatting */
+
+body {
+  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #000000;
+	line-height: 15px;
+	background-color: #adb191;
+  margin: 5px;
+}
+
+.header img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 900px;
+  height: auto;
+}
+
+nav {
+  background: #ced1b2;
+  padding: .5rem 0;
+  border: 1px solid #82856d;
+  color: #686C50;
+  width: 900px;
+  margin: 0 auto;
+}
+
+.navbar {
+   display: flex;
+   flex-flow: row wrap;
+   justify-content: flex-start;
+}
+
+/* .navbar > li {  
+  flex: 1;  
+} */
+
+
+.header {
+    grid-area: hd;
+}
+.footer {
+    grid-area: ft;
+}
+.content {
+    grid-area: main;
+}
+.sidebar {
+    grid-area: sd;
+}
+
+/* #container {
+  width: 900px;
+} */
+
+/* .container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 400px;
+  grid-template-areas: 
+      "hd hd hd"
+      "main main sd"
+      "ft ft ft";
+} */
+
+.page-title {
+  color: #aa8f4c;
+  text-transform: uppercase;
+  line-height: .8rem;
+  font-weight: 600;
+}
+
+#frissites, #teljes-cikk, #digitalis,
+#uj-szam-promo, #kovetkezo-szam, #aranysas-promo {
+  background: #ced1b2;
+  padding: .5rem;
+  margin: .5rem;
+}
+
+p {
+  line-height: 1.3rem;
+  font-size: .7rem;
+}
+
+nav a:link {
+  text-decoration: none; !important
+}
+
+nav a:hover {
+  color: white; !important
+}
+
+a:link {
+  color: #929871;
+  text-decoration: underline;
+}
+
+a:hover {
+    color: #686C50;
+    text-decoration: none;
+}
+
+a:visited {
+  color: #929871;
+}
+
+main img {
+  margin: 15px 0;
+}
+
+
+
+
+
+
+
+
+
+
