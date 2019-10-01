@@ -79,16 +79,29 @@ h1 {
        1px 1px 0 #000;
 }
 
-@media (max-width: 768px) {
+@media screen  and (max-width: 992px) {
+  h1 {
+    font-size: 3rem;
+    top: 30px;
+  }
+}
+
+@media screen  and (max-width: 660px) {
   h1 {
     font-size: 2.5rem;
-    top: 10px;
+    top: 20px;
   }
 }
 
 header {
   background: url(http://magazin.regiment.hu/images/header.jpg) no-repeat center;
   height: 199px;
+}
+
+@media screen and (max-width: 900px) {
+  header {
+    background-position: left;
+  }
 }
 
 /*.header img {
@@ -126,7 +139,7 @@ header {
 
 .navbar-toggle {
   position: absolute;
-  top: 10px;
+  top: 20px;
   right: 20px;
   cursor: pointer; 
   color: rgba(255,255,255,0.8);
@@ -138,7 +151,7 @@ header {
 }
 
 /* *************** Desktop ************ */
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 660px) {
   .navbar {
     display: flex;
     padding-bottom: 0;
