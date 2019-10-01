@@ -65,9 +65,9 @@ body {
 
 h1 {
   position: absolute;
-  left: 15px;
-  top: 40px;
-  font-size: 4rem;
+  left: 27%;
+  top: 3%;
+  font-size: 3.5rem;
   font-weight: 600;
   -webkit-text-stroke: 1px white;
    color: rgb(161, 121, 57);
@@ -82,7 +82,8 @@ h1 {
 @media screen  and (max-width: 992px) {
   h1 {
     font-size: 3rem;
-    top: 30px;
+    left: 5%;
+    top: 3%;
   }
 }
 
@@ -100,7 +101,7 @@ header {
 
 @media screen and (max-width: 900px) {
   header {
-    background-position: left;
+    background-position: center;
   }
 }
 
