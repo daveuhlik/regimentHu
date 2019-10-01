@@ -75,7 +75,7 @@ body {
 
 /* ================= Main Navigation ================ */
 
-nav {
+.navbar {
   font-family: 'Open Sans Condensed', sans-serif;
   background: #ced1b2;
   padding: .5rem 0;
