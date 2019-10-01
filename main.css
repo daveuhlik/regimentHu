@@ -63,15 +63,44 @@ body {
   margin: 5px;
 }
 
-.header img {
+h1 {
+  position: absolute;
+  left: 15px;
+  top: 40px;
+  font-size: 4rem;
+  font-weight: 600;
+  -webkit-text-stroke: 1px white;
+   color: rgb(161, 121, 57);
+   text-shadow:
+       3px 3px 0 #000,
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2.5rem;
+    top: 10px;
+  }
+}
+
+header {
+  background: url(http://magazin.regiment.hu/images/header.jpg) no-repeat center;
+  height: 199px;
+}
+
+/*.header img {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 100%;
   max-width: 900px;
+  position: absolute;
   height: auto;
-  /*border: 1px solid #82856d;*/
-}
+  border: 1px solid #82856d;
+}*/
 
 /* ================= Main Navigation ================ */
 /* *********** Mobile ************ */
@@ -82,7 +111,7 @@ body {
   color: #686C50;
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 
 .main-nav li {
