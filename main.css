@@ -184,6 +184,12 @@ header {
 
 /* ================= End of Main Navigation ================ */
 
+#wrapper {
+  max-width: 900px;
+  display: flex;
+  justify-content: center;
+}
+
 .page-title {
   color: #aa8f4c;
   text-transform: uppercase;
