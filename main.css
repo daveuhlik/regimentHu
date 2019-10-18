@@ -213,6 +213,7 @@ header {
     'kovetkezo'
     'digitalis'
     'sas-promo';
+    justify-content: center;
   }
 }
 
@@ -259,6 +260,10 @@ a:visited {
 
 main img {
   margin: 15px 0;
+}
+
+.footer {
+  text-align: center;
 }
 
 
