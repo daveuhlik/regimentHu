@@ -101,7 +101,7 @@ header {
 
 @media screen and (max-width: 900px) {
   header {
-    background-position: center;
+  background-position: center;
   }
 }
 
@@ -201,7 +201,7 @@ header {
   'teljes-cikk digitalis sas-promo';
   grid-gap: 1px;
   margin: auto;
-  border: 1px solid;
+  border: 1px solid #82856d;
 }
 
 @media screen and (max-width: 900px) {
