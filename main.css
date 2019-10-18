@@ -184,10 +184,36 @@ header {
 
 /* ================= End of Main Navigation ================ */
 
-#wrapper {
+.item1 { grid-area: frissites; }
+.item2 { grid-area: teljes-cikk; }
+.item3 { grid-area: digitalis; }
+.item4 { grid-area: uj-szam; }
+.item5 { grid-area: kovetkezo; }
+.item6 { grid-area: sas-promo; }
+
+.grid-container {
   max-width: 900px;
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-areas: 
+  'frissites frissites uj-szam'
+  'teljes-cikk digitalis uj-szam'
+  'teljes-cikk digitalis kovetkezo'
+  'teljes-cikk digitalis sas-promo';
+  grid-gap: 1px;
+  margin: auto;
+  border: 1px solid;
+}
+
+@media screen and (max-width: 900px) {
+  .grid-container {
+    grid-template-areas: 
+    'frissites'
+    'uj-szam'
+    'teljes-cikk'
+    'kovetkezo'
+    'digitalis'
+    'sas-promo';
+  }
 }
 
 .page-title {
@@ -197,8 +223,8 @@ header {
   font-weight: 600;
 }
 
-#frissites, #teljes-cikk, #digitalis,
-#uj-szam-promo, #kovetkezo-szam, #aranysas-promo {
+.item1, .item2, .item3,
+.item4, .item5, .item6 {
   background: #ced1b2;
   padding: .5rem;
   margin: .5rem;
