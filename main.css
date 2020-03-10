@@ -131,6 +131,7 @@ header {
 .main-nav li {
   text-align: center;
   margin: 15px auto;
+  font-size: 1.2rem;
 }
 
 .main-nav {
@@ -152,7 +153,7 @@ header {
 }
 
 /* *************** Desktop ************ */
-@media screen and (min-width: 660px) {
+@media screen and (min-width: 764px) {
   .navbar {
     display: flex;
     padding-bottom: 0;
@@ -169,6 +170,7 @@ header {
 
   .main-nav li {
     margin: 20px;
+    font-size: 1.2rem;
   }
 
   .nav-links {
@@ -192,7 +194,8 @@ header {
 .item6 { grid-area: sas-promo; }
 
 .grid-container {
-  max-width: 900px;
+  background-color: rgb(209, 212, 184);
+  max-width: 894px;
   display: grid;
   grid-template-areas: 
   'frissites frissites uj-szam'
@@ -201,6 +204,7 @@ header {
   'teljes-cikk digitalis sas-promo';
   grid-gap: 1px;
   margin: auto;
+  padding: 3px;
   border: 1px solid #82856d;
 }
 
@@ -222,13 +226,15 @@ header {
   text-transform: uppercase;
   line-height: .8rem;
   font-weight: 600;
+  margin: .5rem 0;
 }
 
 .item1, .item2, .item3,
 .item4, .item5, .item6 {
-  background: #ced1b2;
+  background: rgb(231, 234, 201);
+  border: 1px solid #a1a38d;
   padding: .5rem;
-  margin: .5rem;
+  margin: .1rem;
 }
 
 p {
@@ -262,8 +268,18 @@ main img {
   margin: 15px 0;
 }
 
+.img-fluid {
+  border: 2px solid #AFAFAF;
+
+}
+
 .footer {
   text-align: center;
+  max-width: 900px;
+  margin: auto;
+  border: 1px solid #82856d; 
+  background-color: #ced1b2;
+  color: #686C50;
 }
 
 
